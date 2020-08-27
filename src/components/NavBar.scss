@@ -1,0 +1,25 @@
+.navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.5s linear;
+  z-index: 1;
+  .netflix__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .netflix__img {
+    object-fit: contain;
+    height: 10vh;
+  }
+}
+
+.bg__navbar {
+  background-color: #211F20;
+}
